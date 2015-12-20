@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="christmasApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Merry Christmas Kitty Cat!</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   <div id="container">
+      <header>
+          <h1>Merry Christmas My Beloved Kitty Cat!</h1>
+          <img id="prev" src="img/arrow-left.png">
+          <div id="slider" ng-controller="ChristmasController">
+              <div class="slide" ng-repeat="note in love_notes">
+                  <div class="slide-copy">
+                      <h2>{{ note.heading }}</h2>
+                      <p>{{ note.reason }}</p>
+                  </div>
+                  <img ng-src="{{ github.url_extension }}/{{ note.img }}">
+              </div><!--/.slide of slider one -->
+          </div>
+          <img id="next" src="img/arrow-right.png">
+      </header>
+       
+   </div>
+    
+    
+    
+    <script src="js/jquery-1.11.3.js"></script> <!--/ jQuery script -->
+    <script src="js/angular.min.js"></script> <!--/ Angular JS script -->
+    <script src="js/app.js"></script> <!--/ Custom Angular JS controller scripts -->
+    <script src="js/script.js"></script><!--/ Custom slider animation script -->
+</body>
+</html>
