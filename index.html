@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+   <div class="heading-container">
+       <h1 id="cat-christmas">Merry Christmas My Beloved Kitty Cat!</h1> 
+   </div>
    <div id="container">
       <header>
-          <h1>Merry Christmas My Beloved Kitty Cat!</h1>
           <img id="prev" src="img/arrow-left.png">
           <div id="slider" ng-controller="ChristmasController">
               <div class="slide" ng-repeat="note in love_notes">
@@ -21,9 +23,8 @@
           </div>
           <img id="next" src="img/arrow-right.png">
       </header>
-       
    </div>
-    
+<footer></footer>    
     
     
     <script src="js/jquery-1.11.3.js"></script> <!--/ jQuery script -->

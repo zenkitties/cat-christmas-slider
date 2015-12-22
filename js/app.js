@@ -37,7 +37,7 @@ var app = angular.module('christmasApp', []);
             {
             img: 'img/cat6.jpg',
             heading: 'Downtown Fresno - Our First Art Hop',
-            reason: 'You are the perfect combination between beautiful, sexy, and gorgeous. I love that I am so physically, emotional, and spiritually attracted to you.'
+            reason: 'You are the perfect combination of beautiful, sexy, and gorgeous. I love that I am so physically, emotional, and spiritually attracted to you.'
             },
             {
             img: 'img/cat7.jpg',
@@ -57,7 +57,7 @@ var app = angular.module('christmasApp', []);
             {
             img: 'img/cat10.jpg',
             heading: 'Sequioa National Park - Tokopah Falls Trail',
-            reason: 'I really appreciate and find great joy in what a talented artist you are. I love that you love writing letters and sealing them with wax and I love that you are just a breath taking actress.'
+            reason: 'I really appreciate and find great joy in what a talented artist you are. I love that you love writing letters and sealing them with wax. I love that you are just a breath taking actress.'
             },
             {
             img: 'img/cat11.jpg',
